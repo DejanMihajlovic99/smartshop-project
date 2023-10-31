@@ -1,0 +1,19 @@
+.announcement {
+    height: 30px;
+    background-color: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .announcement {
+        height: 50px;
+        font-size: 14px;
+        text-align: center;
+    }
+}

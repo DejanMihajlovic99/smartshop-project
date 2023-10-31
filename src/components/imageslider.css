@@ -1,0 +1,28 @@
+@import "react-slideshow-image/dist/styles.css";
+.text-about { 
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+.container-about {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ padding-top: 40px;
+}
+.main-container { 
+    display: flex;
+justify-content: center;
+}
+.carousel-v {
+ text-align: center;
+ max-width: 850px;
+ max-height: 500px;
+ margin: 40px auto;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
